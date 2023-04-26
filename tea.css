@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./25.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.banner {
+    background-color: pink;
+    border: 1px pink solid;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.name_banner{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+    width: 95%;
+}
+
+.name_banner1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(213, 10, 17);
+    font-weight: bold;
+    width: 950%;
+}
+
+.h1 {
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 7%;
+    border: 1px  rgb(15, 15, 16);
+    width: 7500px;
+    height: 50px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li a{
+    text-decoration: none;
+    color: rgb(231, 65, 15);
+    padding: 10px 15px 10px 15px;
+    line-height: normal;
+    display: block;
+}
+.menu_web {
+    width: 95%;
+    height: 40px;
+    background-color: rgb(124, 253, 143);
+    margin: 0px auto;
+}
+.menu {
+    font-size: 20px;
+}
+.root>li>a:hover{background-color: lightpink;
+    color: black;
+    transform: ease-in 0.5s;
+}
+.submenu{
+    width: 200px;
+    background-color: lightpink;
+    min-height: 60px;
+    display: none;
+    position: absolute;
+}
+.submenu li {list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(231, 65, 15);
+    display: block;
+    border: 1px solid #000000;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover .submenu {
+    display: block;
+    background-color: rgb(124, 253, 143);
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
+.submenu li a:hover {
+    background-color: lightpink;
+    color: black;
+    transform: ease-in 0.35s;
+}
+.bocuc{
+    border: 1px solid #000000;
+    width: 97%;margin: 0px auto;
+}
+
+.h11 td{border: 1px solid black;}
+
+ img{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    
+}
+
+.sp1 > img{
+    border-radius: 100%;
+}
+
+table{
+    text-align: center;
+ }
+
+
+
+
+
+
